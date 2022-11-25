@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT License"
+
+[[mods]]
+modId="createbigcannons"
+version="${file.jarVersion}"
+displayName="Create Big Cannons"
+logoFile="logo.png"
+credits="Made by rbasamoyai / Re-used cast iron item assets by Kayladillo from Create Deco with permission"
+authors="rbasamoyai"
+description='''Artillery engineering comes to Create'''
+
+[[dependencies.createbigcannons]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40.1.60,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.createbigcannons]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+    
+[[dependencies.createbigcannons]]
+	modId="create"
+	mandatory=true
+	versionRange="[0.5.0.e,)"
+	ordering="NONE"
+	side="BOTH"
+	
+[[dependencies.createbigcannons]]
+	modId="flywheel"
+	mandatory=true
+	versionRange="[0.6.5,0.6.7)"
+	ordering="NONE"
+	side="BOTH"
+	
+[[dependencies.createbigcannons]]
+	modId="alloyed"
+	mandatory=false
+	versionRange="[1.18.2]"
+	ordering="NONE"
+	side="BOTH"

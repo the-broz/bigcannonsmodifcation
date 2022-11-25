@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"minVersion": 0.8,
+	"package": "rbasamoyai.createbigcannons.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"refmap": "createbigcannons.refmap.json",
+	"mixins": [
+		"FixFluidTagIngredientMixin",
+		"BearingCannonDrillFinderMixin"
+	],
+	"client": [
+		"CannonCarriagePoseMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
